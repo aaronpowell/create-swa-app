@@ -1,0 +1,18 @@
+{
+    "locations": [
+        {
+            "name": "React + TypeScript + API",
+            "template": {
+                "repo": "aswa-react-template",
+                "owner": "aaronpowell"
+            }
+        },
+        {
+            "name": "Vanilla.js app with API",
+            "template": {
+                "repo": "vanilla-api",
+                "owner": "staticwebdev"
+            }
+        }
+    ]
+}
