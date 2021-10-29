@@ -1,0 +1,4 @@
+.devcontainer
+.github
+node_modules
+*.tgz
