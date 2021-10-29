@@ -1,4 +1,3 @@
-import chalk from "chalk";
 import inquirer from "inquirer";
 import meow from "meow";
 import path from "path";
