@@ -48,14 +48,14 @@ async function cloneRepo(clone_url: string, args: Args) {
     console.log(stdout);
     if (stderr) {
       console.error(stderr);
-    } else {
-      console.log(`✅ Repo cloned at ${args.directory}`);
-      console.log(`👉 Navigate to ${args.directory}`);
-      console.log(`\tcd ${args.directory}`);
-      console.log(`👉 Install packages`);
-      console.log(`\tnpm install`);
-      console.log(`🎉 Happy Coding!`);
     }
+
+    console.log(`✅ Repo cloned at ${args.directory}`);
+    console.log(`👉 Navigate to ${args.directory}`);
+    console.log(`\tcd ${args.directory}`);
+    console.log(`👉 Install packages`);
+    console.log(`\tnpm install`);
+    console.log(`🎉 Happy Coding!`);
   } catch (e) {
     console.log(e);
   }
