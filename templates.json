@@ -13,6 +13,83 @@
                 "repo": "vanilla-api",
                 "owner": "staticwebdev"
             }
+        },
+        {
+            "name": "Mongoose starter kit",
+            "template": {
+                "repo": "aswa-student-starter-kit",
+                "owner": "staticwebdev"
+            }
+        },
+        {
+            "name": "Vanilla.ts app with API",
+            "template": {
+                "repo": "swa-typescript",
+                "owner": "manekinekko"
+            }
+        },
+        {
+            "name": "Azure SWAG demo",
+            "template": {
+                "repo": "azure-swag",
+                "owner": "sinedied"
+            }
+        },
+        {
+            "name": "Vue without API",
+            "template": {
+                "repo": "vue-basic",
+                "owner": "staticwebdev"
+            }
+        },
+        {
+            "name": "Angular without API",
+            "template": {
+                "repo": "angular-basic",
+                "owner": "staticwebdev"
+            }
+        },
+        {
+            "name": "Next.js",
+            "template": {
+                "repo": "nextjs-starter",
+                "owner": "staticwebdev"
+            }
+        },
+        {
+            "name": "Nuxt.js",
+            "template": {
+                "repo": "nuxtjs-starter",
+                "owner": "staticwebdev"
+            }
+        },
+        {
+            "name": "Blazor with C# API",
+            "template": {
+                "repo": "blazor-starter",
+                "owner": "staticwebdev"
+            }
+        },
+        {
+            "name": "Fable with F# API",
+            "template": {
+                "repo": "swa-fable-template",
+                "owner": "aaronpowell"
+            }
+        },
+        {
+            "name": "Fable + Feliz with F# API",
+            "template": {
+                "repo": "swa-feliz-template",
+                "owner": "aaronpowell"
+            }
+        },
+        {
+            "name": "Elmish with F# API",
+            "template": {
+                "repo": "swa-elmish-template",
+                "owner": "aaronpowell"
+            }
         }
     ]
 }
