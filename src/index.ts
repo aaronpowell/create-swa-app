@@ -8,6 +8,7 @@ import { exec } from "child_process";
 import { promisify } from "util";
 import { Args, Templates, Answewrs } from "./types";
 import chalk from "chalk";
+import { fileURLToPath } from "url";
 
 const pexec = promisify(exec);
 const CLIENT_ID = "5c6c59e3cae8963ac933";
@@ -92,10 +93,10 @@ async function quizUser(templates: Templates) {
 }
 
 async function getTemplates(): Promise<Templates> {
-  const moduleURL = new URL(import.meta.url);
+  const __dirname = fileURLToPath(new URL(import.meta.url));
 
   const templateContents = await fs.readFile(
-    path.join(path.dirname(moduleURL.pathname), "..", "templates.json"),
+    path.join(path.dirname(__dirname), "..", "templates.json"),
     {
       encoding: "utf8",
     }
